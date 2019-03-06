@@ -32,6 +32,7 @@
 		1F4B1EFF223042D4005D3A67 /* SoundManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B1EFE223042D4005D3A67 /* SoundManagerTests.swift */; };
 		1F4B1F00223042DE005D3A67 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B1EFC22304238005D3A67 /* SoundPlayer.swift */; };
 		1F4B1F0222304301005D3A67 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F4B1F0122304301005D3A67 /* test.mp3 */; };
+		1F4B1F062230476F005D3A67 /* MainThreadLagDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B1F052230476F005D3A67 /* MainThreadLagDetector.swift */; };
 		1FC90A44210B8B5100E64642 /* ReusableQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC90A43210B8B5100E64642 /* ReusableQueue.swift */; };
 		1FC90A47210B981700E64642 /* ReusableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC90A46210B981700E64642 /* ReusableViewController.swift */; };
 		1FC90A49210B995900E64642 /* TestReusableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC90A48210B995900E64642 /* TestReusableViewController.swift */; };
@@ -75,6 +76,7 @@
 		1F4B1EFC22304238005D3A67 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		1F4B1EFE223042D4005D3A67 /* SoundManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManagerTests.swift; sourceTree = "<group>"; };
 		1F4B1F0122304301005D3A67 /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		1F4B1F052230476F005D3A67 /* MainThreadLagDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainThreadLagDetector.swift; sourceTree = "<group>"; };
 		1FC90A43210B8B5100E64642 /* ReusableQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableQueue.swift; sourceTree = "<group>"; };
 		1FC90A46210B981700E64642 /* ReusableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViewController.swift; sourceTree = "<group>"; };
 		1FC90A48210B995900E64642 /* TestReusableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestReusableViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				1F256D1421044DF900A8433C /* Animation */,
 				1F256D1621044DF900A8433C /* Foundation */,
 				1F4B1EFC22304238005D3A67 /* SoundPlayer.swift */,
+				1F4B1F052230476F005D3A67 /* MainThreadLagDetector.swift */,
 			);
 			name = ScaffoldKit;
 			path = ../../ScaffoldKit;
@@ -322,6 +325,7 @@
 				1F256D2321044DF900A8433C /* AnimationSequence.swift in Sources */,
 				1F256D1E21044DF900A8433C /* TableViewDataSource.swift in Sources */,
 				1F4B1EEA22303A62005D3A67 /* Async.swift in Sources */,
+				1F4B1F062230476F005D3A67 /* MainThreadLagDetector.swift in Sources */,
 				1F256D2421044DF900A8433C /* CGFloat+EvenRounded.swift in Sources */,
 				1F256D1C21044DF900A8433C /* TableViewViewModel.swift in Sources */,
 				1F4B1EFD22304238005D3A67 /* SoundPlayer.swift in Sources */,
